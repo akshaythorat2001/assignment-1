@@ -1,0 +1,36 @@
+#Write a python program to print all prime no in an interval
+
+a=int(input("enter the starting interval:"))
+b=int(input("enter the ending interval:"))
+for n in range(a,b):
+  if n > 1:
+       for i in range(2, n):
+           if (n % i) == 0:
+               break
+       else:
+           print(n)
+   
+#output:
+#enter the starting interval:100
+#enter the ending interval:200
+#101
+#103
+#107
+#109
+#113
+#127
+#131
+#137
+#139
+#149
+#151
+#157
+#163
+#167
+#173
+#179
+#181
+#191
+#193
+#197
+#199    
