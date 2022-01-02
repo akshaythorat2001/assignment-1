@@ -1,0 +1,16 @@
+#writea python program to check prime no
+
+num=int(input("enter the no"))
+flag=0
+for i in range(2,num):
+  if(num%i)==0:
+    flag=1
+    break
+if(flag==0):
+  print("no is prime")
+else:
+  print("no is not prime")
+ 
+#output:
+#enter the no5
+#no is prime
