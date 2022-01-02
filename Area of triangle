@@ -1,0 +1,10 @@
+#calculate area of triangle
+
+b=float(input("enter the base"))
+h=float(input("enter the height"))
+area=1/2*b*h
+print("area of a the triangle",area)
+
+#output:enter the base34
+#enter the height64
+#area of a the triangle 1088.0
