@@ -1,0 +1,12 @@
+#check no is even or odd
+num=int(input("enter the no::"))
+if(num%2==0):
+  print("no is even")
+else:
+  print("no is even")
+    
+  
+  
+#output::
+# enter the no::67
+# no is even
