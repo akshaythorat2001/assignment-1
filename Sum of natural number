@@ -1,0 +1,13 @@
+#sum of natural number
+
+a=int(input("starting no:"))
+b=int(input("ending no:"))
+s=0
+for i in range(a,b+1):
+  s=s+i
+print("sum in natural number:",s)
+
+#output:
+  #starting no:1
+  #ending no:5
+  #sum in natural number: 15
