@@ -1,0 +1,19 @@
+#check no is Armstrong no
+
+num=int(input("enter the no::"))
+sum=0
+num=num1
+while(num>0):
+d=num1%10
+num1=num/10
+sum=sum+d*d*d
+if(num==sum):
+  print("no is Armstrong")
+else:
+  print("no is not Armstrong")
+    
+  
+  
+#output::
+# enter the no::67
+# no is not Armstrong
