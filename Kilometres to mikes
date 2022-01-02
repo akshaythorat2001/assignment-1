@@ -1,0 +1,8 @@
+#convart kilometres to mikes using python
+
+float(input("enter kilometres"))
+mile=km*0.62137
+print("miles",mile)
+
+#output::enter kilometres45
+#miles 27.96165
