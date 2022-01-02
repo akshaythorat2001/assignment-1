@@ -1,0 +1,8 @@
+#Python program to celcius to Fahrenheit
+
+cel=float(input("enter the celcius:"))
+fet=cel*(9/5)+32
+print("Fahrenheit",fet)
+#output::
+#enter the celcius:63
+#Fahrenheit 145.4
