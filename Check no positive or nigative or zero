@@ -1,0 +1,12 @@
+#check no is positive, negative and zero
+num=int(input("enter the no::"))
+if(num==0):
+  print("no is zero")
+elif(num>0):
+  print("no is positive")
+else:
+  print("no is negative")
+  
+#output::
+# enter the no::67
+# no is positive
