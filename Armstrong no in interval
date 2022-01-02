@@ -1,0 +1,25 @@
+#write a program to find Armstrong no in an interval
+
+a=int(input("starting no::"))
+b=int(input("ending no:"))
+for i in range(a,b):
+  n=i
+  s=0
+  while(n>0):
+    d=n%10
+    n=int(n/10)
+    s=s+(d*d*d)
+  if(s==i):
+      print(i)
+     
+#output:
+#starting no::1
+#ending no:1000
+#1
+#153
+#370
+#371
+#407
+
+
+  
