@@ -1,0 +1,14 @@
+#swap two variable
+
+a=float(input("enter value1::"))
+b=float(input("enter value2::"))
+temp=a
+a=b
+b=temp
+print("swapping value1::",a)
+print("swapping value2::",b)
+
+#output:enter value1::63
+#enter value2::21
+#swapping value1:: 21.0
+#swapping value2:: 63.0
